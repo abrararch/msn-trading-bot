@@ -1,0 +1,71 @@
+# ─── Environment & Sensitive Credentials ───
+.env
+*.env
+.env.*
+!.env.example
+session.json
+*session*.json
+*token*.json
+*credential*.json
+*secret*.json
+*.token
+*.session
+*.pem
+*.key
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ─── Flutter & Dart ───
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+quotex_signal_app/build/
+quotex_signal_app/.dart_tool/
+quotex_signal_app/.flutter-plugins
+quotex_signal_app/.flutter-plugins-dependencies
+
+# ─── Android / iOS Build Artifacts & Binaries ───
+*.apk
+*.aab
+*.ipa
+*.app
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ─── IDE & Editors ───
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Logs & Database ───
+*.log
+*.sqlite
+*.sqlite3
