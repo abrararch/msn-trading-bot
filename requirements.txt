@@ -9,3 +9,10 @@ pandas_ta>=0.3.14b0
 python-dotenv>=1.0.0
 yfinance>=0.2.30
 git+https://github.com/rongardF/tvdatafeed.git
+
+# auth_server.py — account + license-key server for the Flutter app
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+google-auth>=2.34.0
+pyjwt>=2.9.0
+requests>=2.32.0
